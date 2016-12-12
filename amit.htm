@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+table, th, td {
+	border: 1px solid black;
+	border-collapse: collapse;
+}
+.hidden {
+	display: none;
+}
+.showLink{
+	cursor: pointer;
+	text-decoration: underline;
+}
+.center {
+	text-align: center;
+}
+.boxSize{
+	width: 300px;
+    height: 100px;
+    padding: 50px;
+}
+</style>
+</head>
+<body>
+
+<table style="width:100%">
+  <tr>
+	<td>
+		<div class="container boxSize">
+			 <div>
+				<div class="showLink center">
+					Add Description
+				</div>
+				<div class="descriptionBlock header hidden center">
+					<div>
+						<textarea class="description userInput" rows='4' cols='20'></textarea>
+					</div>
+
+					<div>
+						<span><input type="button" value="save" class="save"></span>
+						<span><input type="button" value="cancel" class="cancel"> </span>
+					</div>
+				</div>
+			</div>
+			<div class="showLink center">
+				Add Title
+			</div>
+			<div class="titleBlock header hidden center">
+				<div>
+					<input type="text" value="" class="title userInput"/>
+				</div>
+
+				<div>
+					<span><input type="button" value="save" class="save"></span>
+					<span><input type="button" value="cancel" class="cancel"> </span>
+				</div>
+			</div>
+		</div>
+	</td>
+	<td></td>
+	<td></td>
+  </tr>
+  <tr>
+	<td></td>
+	<td></td>
+	<td></td>
+  </tr>
+  <tr>
+	<td></td>
+	<td></td>
+	<td></td>
+  </tr>
+</table>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script type="text/javascript" src="amit.js"></script>
+</body>
+</html>
