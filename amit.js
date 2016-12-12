@@ -1,5 +1,5 @@
 $(document).ready(function(){
-	var cont=$('td').first().html(); //document.querySelectorAll('td')
+	var cont=$('td').first().next().html(); //document.querySelectorAll('td')
 	$('td:not(:first)').html(cont);
 	var showLink = $('.showLink');
 	showLink.click(function(){
@@ -10,3 +10,11 @@ $(document).ready(function(){
      	$(this).parents('.header').toggleClass('hidden').find('.userInput').val('');
      })
 })
+
+/*
+1-html skeleton
+2- css inject
+3-
+
+
+*/
